@@ -54,20 +54,21 @@ void task3(void)
 	unsigned int v1=0;
 	unsigned int v2=1;
 	unsigned int result=0;
+
 	while(1)
 	{
 	result=v2+v1;
 	v1=v2;
 	v2=result;
-	  for (int j = 0; j < 1000000; j++)
-		;
-    	  printf("Fibonacci:%i \r\n", (unsigned int)result);
-	  if(result==1836311903)
+	for (int j = 0; j < 1000000; j++)
+	;
+    	printf("%u  \r\n", (unsigned int)result);
+	 if(result==3996334433)
 	  {
 	   v1=0;
 	   v2=1;
 	  }
-	
+
 	}
 
 
